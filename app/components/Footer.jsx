@@ -164,7 +164,7 @@ export default function Footer() {
           {openSection === 'maison' && (
             <div className="pb-4 text-zinc-400 pl-6 space-y-3">
               <a href="#" className="block hover:text-white">Corporate information</a>
-              <a href="#" className="block hover:text-white">Careers at Chopard</a>
+              <a href="#" className="block hover:text-white">Careers at Amytiic</a>
               <a href="#" className="block hover:text-white">Press</a>
             </div>
           )}
@@ -212,7 +212,7 @@ export default function Footer() {
             <a href="#" className="hover:text-white transition-colors">ALERT LINE</a>
           </div>
           <div>
-            <span>© 2026 CHOPARD ALL RIGHTS RESERVED</span>
+            <span>© 2026 AMYTIIC ALL RIGHTS RESERVED</span>
           </div>
         </div>
 

@@ -145,7 +145,7 @@ export default function LuxuryNavbar() {
           {/* Center Brand Logo */}
           <div className="flex justify-center lg:w-1/3">
             <a href="#" className="text-3xl sm:text-4xl font-extrabold tracking-wider uppercase font-serif text-black">
-              Chopard
+              Amytiic
             </a>
           </div>
 

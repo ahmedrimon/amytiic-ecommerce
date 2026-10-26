@@ -3,6 +3,9 @@
 import Image from "next/image";
 
 import HeroVideo from './components/HeroVideo';
+import ProductCarousel from './components/ProductCarousel';
+import CategoryGrid from './components/CategoryGrid';
+import ServicesAndNewsletter from './components/ServicesAndNewsletter';
 
 export default function Home() {
   return (
@@ -11,8 +14,10 @@ export default function Home() {
         <div className="w-full">
           <HeroVideo />
         </div>
-        
       </main>
+        <ProductCarousel/>
+        <CategoryGrid/>
+        <ServicesAndNewsletter/>
     </div>
   );
 }
