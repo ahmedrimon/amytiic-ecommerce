@@ -15,36 +15,6 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white font-serif border-t border-zinc-800 pt-12 pb-8 px-4 sm:px-6 lg:px-8 text-xs">
       <div className="max-w-7xl mx-auto">
-        
-        {/* ----------------- DESKTOP TOP BAR: International & Accessibility ----------------- */}
-        <div className="hidden md:flex justify-between items-center pb-10 border-b border-zinc-800 font-sans tracking-widest text-[11px]">
-          <div className="flex items-center space-x-2 cursor-pointer hover:text-zinc-300">
-            <Globe className="w-4 h-4" />
-            <span>INTERNATIONAL</span>
-          </div>
-
-          <div className="flex items-center space-x-8">
-            <div className="flex items-center space-x-3">
-              <span>ENABLE HIGH CONTRAST</span>
-              <button 
-                onClick={() => setHighContrast(!highContrast)}
-                className={`w-10 h-5 flex items-center rounded-full p-1 transition-colors ${highContrast ? 'bg-white' : 'bg-zinc-800'}`}
-              >
-                <div className={`bg-black w-3.5 h-3.5 rounded-full transition-transform ${highContrast ? 'translate-x-5' : 'translate-x-0'}`} />
-              </button>
-            </div>
-
-            <div className="flex items-center space-x-3">
-              <span>DISABLE ANIMATIONS</span>
-              <button 
-                onClick={() => setDisableAnimations(!disableAnimations)}
-                className={`w-10 h-5 flex items-center rounded-full p-1 transition-colors ${disableAnimations ? 'bg-white' : 'bg-zinc-800'}`}
-              >
-                <div className={`bg-black w-3.5 h-3.5 rounded-full transition-transform ${disableAnimations ? 'translate-x-5' : 'translate-x-0'}`} />
-              </button>
-            </div>
-          </div>
-        </div>
 
         {/* ----------------- DESKTOP MULTI-COLUMN GRID ----------------- */}
         <div className="hidden md:grid grid-cols-4 gap-12 py-12 border-b border-zinc-800 font-sans tracking-widest text-[11px]">
@@ -77,7 +47,7 @@ export default function Footer() {
             <h3 className="font-bold text-white tracking-[0.2em] mb-6">OUR MAISON</h3>
             <ul className="space-y-3 text-zinc-400">
               <li><a href="#" className="hover:text-white transition-colors">Corporate information</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Careers at Chopard</a></li>
+              <li><a href="#" className="hover:text-white transition-colors">Careers at Amyttic</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Press</a></li>
             </ul>
           </div>
